@@ -1,0 +1,16 @@
+# python related
+__pycache__/
+*.py[cod]
+*.$py.class
+
+# temporary files
+*~
+
+# common files
+*.pdf
+*.docx
+*.txt
+
+# other
+.DS_Store
+*.log
