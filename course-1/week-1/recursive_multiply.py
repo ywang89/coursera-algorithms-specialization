@@ -34,4 +34,16 @@ def recursive_multiply(x, y):
     result = 10**(m+n) * recursive_multiply(a, c) + 10**m * recursive_multiply(a, d) \
             + 10**n * recursive_multiply(b, c) + recursive_multiply(b, d)
     return result
-        
+
+def alg(file_path):
+    f = open(file_path, 'r')
+    a = []
+    for line in f:
+        a.append(int(line))
+    
+    x = a[0]
+    y = a[1]
+    
+    result = recursive_multiply(x, y)
+    return result
+    
