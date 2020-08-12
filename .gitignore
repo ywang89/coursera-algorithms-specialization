@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *.$py.class
 
+# environment
+env_coursera_algo/
+
 # temporary files
 *~
 
