@@ -17,3 +17,17 @@ It is a 4 course specialization. The code are algorithms implemented by me for t
 ### Week 2
 
 [Counting Inversions](https://github.com/ywang89/coursera-algorithms-specialization/blob/master/course-1/week-2/count_inversions.py)<br>
+
+### Week 3
+
+[Quick Sort](https://github.com/ywang89/coursera-algorithms-specialization/blob/master/course-1/week-3/quick_sort.py)
+
+### Week 4
+
+The algorithm this week is random contraction. I implemented in 2 ways. I came up with the 1st one.
+It uses simple list operation, without using class. It is a bit slow, but it gets the job done. 
+The 2nd one is more of learning for me because I learned it from another repo (reference link 
+in my script). It uses class to represent adjacency, which leads to clearer code.
+
+[Random Contraction, Implementation 1](https://github.com/ywang89/coursera-algorithms-specialization/blob/master/course-1/week-4/random_contraction_old.py)<br>
+[Random Contraction, Implementation 2](https://github.com/ywang89/coursera-algorithms-specialization/blob/master/course-1/week-4/random_contraction.py)<br>
